@@ -114,7 +114,7 @@ def pixeles_compartidos(pixeles_brillosos):
                 pixeles_compartidos[clave] = devolver_repetidos(pixeles_compartidos[clave], valor2)
         return pixeles_compartidos[clave]
     
-#%%
+#%% Copiar la ruta de acceso de su archivo del mnist.csv
 
 mnist = pd.read_csv("C:/Users/julia/OneDrive/Escritorio/Facultad/Labo de Datos/mnist_c_fog_tp.csv")
 
